@@ -6,7 +6,7 @@ See https://docs.openshift.com/container-platform/4.6/installing/install_config/
 
 To use
 Execute in the following oreder: 
-
+```
 openshift-install create instacll-config
 openshift-install create manifests
 
