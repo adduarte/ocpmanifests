@@ -18,3 +18,6 @@ openshift-install create ignition-config
 
  python3 -mjson.tool  bootstrap.ign  | grep 99 
 
+# proceed with installation
+
+openshift-install cluster create --log-level=debug
