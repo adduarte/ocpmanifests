@@ -12,3 +12,9 @@ openshift-install create manifests
 
 # move the desired new manifest to the openshift/ directory 
 
+openshift-install create ignition-config
+
+# check results by greping the bootstrap.ign for the name of the manifests
+
+ python3 -mjson.tool  bootstrap.ign  | grep 99 
+
